@@ -1,0 +1,368 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5337202900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I want to enter the store and buy products, then make the payment.",
+        "description": "",
+        "id": "buy-products;as-a-user-i-want-to-enter-the-store-and-buy-products,-then-make-the-payment.",
+        "after": [
+          {
+            "result": {
+              "duration": 65000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 373098900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user on  login page",
+            "match": {
+              "location": "SaudemoTest.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275447700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters and username and password",
+            "match": {
+              "location": "SaudemoTest.userEntersAndUsernameAndPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165671700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on login button",
+            "match": {
+              "location": "SaudemoTest.clicksOnLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59577400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "SaudemoTest.userIsNavigatedToTheHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57425100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user on home page",
+            "match": {
+              "location": "SaudemoTest.userOnHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85955800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user adds a product to cart",
+            "match": {
+              "location": "SaudemoTest.userAddsAProductToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76504400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user remove a product to cart",
+            "match": {
+              "location": "SaudemoTest.userRemoveAProductToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131104200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user goes to shopping cart",
+            "match": {
+              "location": "SaudemoTest.userGoesToShoppingCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109344400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user returns to home page",
+            "match": {
+              "location": "SaudemoTest.userReturnsToHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311997800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects products from A to Z",
+            "match": {
+              "location": "SaudemoTest.userSelectsProductsFromAToZ()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142289300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user selects the first item(red t-shirt)",
+            "match": {
+              "location": "SaudemoTest.userSelectsTheFirstItemRedTShirt()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235400900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user returns to homeCARD",
+            "match": {
+              "location": "SaudemoTest.userReturnsToCARD()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77825300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user goes to shopping cart",
+            "match": {
+              "location": "SaudemoTest.userGoesToShoppingCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102986100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user returns to home",
+            "match": {
+              "location": "SaudemoTest.userReturnsToHome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 355024400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user selects products from low to high",
+            "match": {
+              "location": "SaudemoTest.userSelectsProductsFromLowToHigh()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300974100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user selects products from high to low",
+            "match": {
+              "location": "SaudemoTest.userSelectsProductsFromHighToLow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308165500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects products from AZ",
+            "match": {
+              "location": "SaudemoTest.userSelectsProductsFromAZ()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164528300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user selects the first itemSauce Labs Onesie",
+            "match": {
+              "location": "SaudemoTest.userSelectsTheFirstItemRedTShirtAndItemSauceLabsOnesie()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97920100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user returns to cartPage",
+            "match": {
+              "location": "SaudemoTest.userReturnsToCartPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82909500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click in Checkout button",
+            "match": {
+              "location": "SaudemoTest.userClickInCheckoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 387601300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters and firstName and lastName and postalCode",
+            "match": {
+              "location": "SaudemoTest.userEntersAndFirstNameAndLastNameAndPostalCode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123305000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user  click in continue button",
+            "match": {
+              "location": "SaudemoTest.userClickInContinueButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55377300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "text Payment Information is  in the page",
+            "match": {
+              "location": "SaudemoTest.textPaymentInformationIsInThePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102255300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user click in finish",
+            "match": {
+              "location": "SaudemoTest.userClickInFinish()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59991600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "text THANK YOU FOR YOUR ORDER is in the page",
+            "match": {
+              "location": "SaudemoTest.textTHANKYOUFORYOURORDERIsInThePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139283600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user back to Home page",
+            "match": {
+              "location": "SaudemoTest.userBackToHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52385300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user on home page",
+            "match": {
+              "location": "SaudemoTest.userOnHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "buy products",
+    "description": "",
+    "id": "buy-products",
+    "keyword": "Feature",
+    "uri": "Saudemo.feature"
+  }
+]
